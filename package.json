@@ -27,6 +27,10 @@
     "start": "node index.js"
   },
   "devDependencies": {
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "node": "16.16.0"
+  },
+  "engines": {
+    "node": "16.16.0"
   }
 }
