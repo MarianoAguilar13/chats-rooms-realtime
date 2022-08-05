@@ -1,4 +1,4 @@
-import * as admin from "firebase-admin";
+import * as admin from "./node_modules/firebase-admin";
 //import * as serviceAccount from "./rtdb-key.json";
 const serviceAccount = require("./rtdb-key.json");
 

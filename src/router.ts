@@ -1,4 +1,4 @@
-import { Router } from "@vaadin/router";
+import { Router } from "../node_modules/@vaadin/router";
 
 const router = new Router(document.querySelector(".root"));
 router.setRoutes([

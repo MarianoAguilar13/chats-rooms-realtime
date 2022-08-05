@@ -4,7 +4,6 @@
 //router.ts voy acrear la ruta de la page con el componente
 
 import { Router } from "../../node_modules/@vaadin/router";
-import { state } from "../state";
 
 class Home extends HTMLElement {
   connectedCallback() {

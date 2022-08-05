@@ -1,11 +1,11 @@
-import { initializeApp } from "firebase/app";
+import { initializeApp } from "../node_modules/firebase/app";
 import {
   getDatabase,
   ref,
   set,
   onValue,
   DataSnapshot,
-} from "firebase/database";
+} from "../node_modules/firebase/database";
 
 const firebaseConfig = {
   //usuarios y servicios => cuentas de servicios => secretos de la base de datos

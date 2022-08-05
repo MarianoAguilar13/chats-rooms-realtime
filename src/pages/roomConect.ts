@@ -1,4 +1,4 @@
-import { Router } from "@vaadin/router";
+import { Router } from "../../node_modules/@vaadin/router";
 import { state } from "../state";
 
 class Room extends HTMLElement {

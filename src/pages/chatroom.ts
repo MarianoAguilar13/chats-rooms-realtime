@@ -3,7 +3,6 @@
 //a crear componentes y luego los voy a exportar y en el archivo
 //router.ts voy acrear la ruta de la page con el componente
 
-import { Router } from "@vaadin/router";
 import { state } from "../state";
 
 type Message = {
