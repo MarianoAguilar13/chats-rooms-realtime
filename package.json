@@ -19,8 +19,10 @@
   "scripts": {
     "dev": "nodemon --watch ./index.ts --exec ts-node dev.ts",
     "dev:front": "parcel serve ./src/index.html",
+    "build:front": "parcel build ./src/index.html",
+    "build:api": "tsc index.ts",
     "test": "ava",
-    "build": "tsc index.ts",
+    "build": "npm run build:front && npm run build:api",
     "start": "node index.js"
   }
 }
