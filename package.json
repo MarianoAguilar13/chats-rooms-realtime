@@ -1,0 +1,26 @@
+{
+  "name": "chats-rooms-realtime",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.6.4",
+    "@vaadin/router": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase": "^9.8.4",
+    "firebase-admin": "^11.0.0",
+    "lodash": "^4.17.21",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.19",
+    "parcel": "^2.0.0-rc.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "dev": "nodemon --watch ./index.ts --exec ts-node dev.ts",
+    "dev:front": "parcel serve ./src/index.html",
+    "test": "ava",
+    "build": "tsc index.ts",
+    "start": "node index.js"
+  }
+}
