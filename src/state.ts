@@ -5,9 +5,8 @@ import {
   set,
   onValue,
   DataSnapshot,
-} from "firebase/database";
+} from "../node_modules/firebase/database";
 import map from "lodash/map";
-import { Router } from "@vaadin/router";
 
 const API_BASE_URL = "http://localhost:3000";
 
