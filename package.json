@@ -14,7 +14,8 @@
     "nanoid": "^4.0.0",
     "nodemon": "^2.0.19",
     "parcel": "^2.0.0-rc.0",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "ts-node": "^10.9.1"
   },
   "scripts": {
     "dev": "nodemon --watch ./index.ts --exec ts-node dev.ts",
@@ -24,5 +25,8 @@
     "test": "ava",
     "build": "npm run build:front && npm run build:api",
     "start": "node index.js"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
   }
 }
