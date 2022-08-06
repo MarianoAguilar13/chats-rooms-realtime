@@ -13,9 +13,9 @@
     "lodash": "^4.17.21",
     "nanoid": "^4.0.0",
     "nodemon": "^2.0.19",
-    "parcel": "^2.0.0-rc.0",
-    "uuid": "^8.3.2",
-    "ts-node": "^10.9.1"
+    "parcel": "^2.0.0-nightly.821",
+    "ts-node": "10.8.1",
+    "uuid": "^8.3.2"
   },
   "scripts": {
     "dev": "nodemon --watch ./index.ts --exec ts-node dev.ts",
@@ -23,14 +23,16 @@
     "build:front": "parcel build ./src/index.html",
     "build:api": "tsc index.ts",
     "test": "ava",
-    "build": "npm run build:front && npm run build:api",
+    "build": "yarn dev:front && yarn build:api",
     "start": "node index.js"
   },
   "devDependencies": {
+    "process": "^0.11.10",
     "ts-node": "10.8.1"
   },
   "engines": {
     "node": "16.14.0",
-    "npm": "8.3.1"
+    "npm": "8.3.1",
+    "yarn": "1.22.18"
   }
 }
