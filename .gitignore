@@ -3,3 +3,4 @@ node_modules
 dist
 index.js
 db.js
+dev.js
