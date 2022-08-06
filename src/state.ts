@@ -8,7 +8,9 @@ import {
 } from "../node_modules/firebase/database";
 import map from "../node_modules/lodash";
 
-const API_BASE_URL = "http://localhost:3000";
+//const API_BASE_URL = "http://localhost:3000";
+
+const API_BASE_URL = "https://chat-rooms-realtime.herokuapp.com";
 
 //El state nos va a servir como puente del front al back, no voy
 //a hacer peticiones al back desde el front, sino siempre a traves
